@@ -1,0 +1,14 @@
+def my_nick(first, last):
+    return f"Мій нік {first} використаний для ігор  {last}"
+
+print("Це є початкова функція :", my_nick)
+print("Запускаємо функцію:", my_nick("Tara", "T"))
+
+this_is_lambda = lambda first, last: f"МSй нік {first} використаний для ігор  {last}"
+print("Це є початкова функція:", this_is_lambda)
+print("Запускаємо функцію:", this_is_lambda('Tara', 'T'))
+
+Це є початкова функція : 
+Запускаємо функцію: Мій нік Tara використаний для ігор  T
+Це є початкова функція:  at 0x0000010919167EB0>
+Запускаємо функцію: МSй нік Tara використаний для ігор  T
