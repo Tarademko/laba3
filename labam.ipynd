@@ -1,0 +1,11 @@
+file = open('some_file', 'w')
+try:
+    file.write('Менеджери!')
+finally:
+    file.close()
+
+with open('some_file', 'w') as opened_file:
+    opened_file.write('Менеджери!')
+
+    opened_file.seek(0)
+    print(())
